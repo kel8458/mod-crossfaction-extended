@@ -12,4 +12,4 @@ if( WIN32 )
     endif()
 endif()
 
-install(FILES "${CMAKE_MOD_CROSSFACTIONEXTENDED_DIR}/conf/mod_customlogin.conf.dist" DESTINATION ${CONF_DIR})
+install(FILES "${CMAKE_MOD_CROSSFACTIONEXTENDED_DIR}/conf/mod_crossfaction_extended.conf.dist" DESTINATION ${CONF_DIR})
